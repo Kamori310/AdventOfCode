@@ -11,9 +11,4 @@
         <Content Include="data\smallInput.txt" />
     </ItemGroup>
 
-    <ItemGroup>
-      <PackageReference Include="Logary" Version="5.0.1" />
-      <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-    </ItemGroup>
-
 </Project>
