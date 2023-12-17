@@ -6,9 +6,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Compile Include="day05_2.fs" />
-        <Content Include="data\input.txt" />
-        <Content Include="data\smallInput.txt" />
+        <Compile Include="day05_2.fs"/>
+        <Content Include="data\input.txt"/>
+        <Content Include="data\smallInput.txt"/>
     </ItemGroup>
 
 </Project>
