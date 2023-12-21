@@ -14,14 +14,13 @@ public static class Day06 {
         var rawInput = File.ReadAllText(filepath);
         var lines = rawInput.Split("\n");
         List<int> numbers = [];
-        foreach (var line in lines) {
-            foreach (var lineNumbers in line.Split(":", StringSplitOptions.TrimEntries)[1..]) {
-                foreach (var number in lineNumbers.Split(" ")) {
-                    if (number != "")
-                        numbers.Add(int.Parse(number));
-                }
-            }
-        }
+        numbers.AddRange(
+            from line in lines
+            from lineNumbers in line.Split(":", StringSplitOptions.TrimEntries)[1..]
+            from number in lineNumbers.Split(" ")
+            where number != ""
+            select int.Parse(number)
+            );
 
         return [
             numbers[..(numbers.Count / 2)],
