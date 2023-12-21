@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day03", "Day03\Day03.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day06", "Day06\Day06.csproj", "{4B421222-9F24-47F7-99A0-9C0A318A5AED}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day01_FSharp", "Day01_FSharp\Day01_FSharp.fsproj", "{D7C74D72-5631-445F-A45A-CF4F2267425C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day02_FSharp", "Day02_FSharp\Day02_FSharp.fsproj", "{0CA7C50D-2E9D-42DB-AAF9-25B7835D74BE}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Day04_FSharp", "Day04_FSharp\Day04_FSharp.fsproj", "{79AE5CD7-F65D-4F6D-B44C-3AB4F8294417}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{4B421222-9F24-47F7-99A0-9C0A318A5AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B421222-9F24-47F7-99A0-9C0A318A5AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B421222-9F24-47F7-99A0-9C0A318A5AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7C74D72-5631-445F-A45A-CF4F2267425C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7C74D72-5631-445F-A45A-CF4F2267425C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7C74D72-5631-445F-A45A-CF4F2267425C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7C74D72-5631-445F-A45A-CF4F2267425C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA7C50D-2E9D-42DB-AAF9-25B7835D74BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA7C50D-2E9D-42DB-AAF9-25B7835D74BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA7C50D-2E9D-42DB-AAF9-25B7835D74BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA7C50D-2E9D-42DB-AAF9-25B7835D74BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79AE5CD7-F65D-4F6D-B44C-3AB4F8294417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79AE5CD7-F65D-4F6D-B44C-3AB4F8294417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79AE5CD7-F65D-4F6D-B44C-3AB4F8294417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79AE5CD7-F65D-4F6D-B44C-3AB4F8294417}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
