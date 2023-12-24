@@ -1,4 +1,6 @@
-﻿public static class Day09 {
+﻿namespace Day09;
+
+public static class Day09 {
     public static void Main() {
         const string filepath = "../../../data/input.txt";
         var input = File.ReadAllText(filepath);
@@ -46,7 +48,7 @@ internal class Part1 {
         return input
             .Split("\n", StringSplitOptions.TrimEntries)
             .Select(line =>
-                        (List<List<int>>) [line.Split(" ").Select(int.Parse).ToList()])
+                (List<List<int>>) [line.Split(" ").Select(int.Parse).ToList()])
             .ToList();
     }
 }
@@ -88,7 +90,7 @@ internal class Part2 {
         return input
             .Split("\n", StringSplitOptions.TrimEntries)
             .Select(line =>
-                        (List<List<int>>) [line.Split(" ").Select(int.Parse).ToList()])
+                (List<List<int>>) [line.Split(" ").Select(int.Parse).ToList()])
             .ToList();
     }
 }
