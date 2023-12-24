@@ -5,14 +5,14 @@ public static class Day09 {
         const string filepath = "../../../data/input.txt";
         var input = File.ReadAllText(filepath);
         var solver1 = new Part1();
-        solver1.Calcalation(input);
+        solver1.Calculation(input);
         var solver2 = new Part2();
-        solver2.Calcalation(input);
+        solver2.Calculation(input);
     }
 }
 
 internal class Part1 {
-    public void Calcalation(string input) {
+    public void Calculation(string input) {
         var numbers = PreProcessInput(input);
         foreach (var item in numbers) {
             var currentList = item[0];
@@ -54,7 +54,7 @@ internal class Part1 {
 }
 
 internal class Part2 {
-    public void Calcalation(string input) {
+    public void Calculation(string input) {
         var numbers = PreProcessInput(input);
         foreach (var item in numbers) {
             var currentList = item[0];
